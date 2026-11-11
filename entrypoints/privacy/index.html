@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>peer — privacy</title>
+    <link rel="stylesheet" href="./privacy.css" />
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="./options.html">peer</a>
+      <p class="eyebrow">UPDATED NOVEMBER 11, 2026</p>
+      <h1>Privacy policy</h1>
+      <p>
+        peer runs in your browser. It has no account system, backend, analytics,
+        or telemetry. The extension does not send your browsing activity to its
+        developer.
+      </p>
+      <h2>What peer processes</h2>
+      <p>
+        To detect known tracking services, peer compares accessible HTTP(S)
+        request addresses with its bundled catalog. Request paths are processed
+        in memory. Request bodies, cookie values, and full page URLs are not
+        saved in the activity history.
+      </p>
+      <p>
+        Temporary activity for each open tab includes the site hostname,
+        timestamps, endpoint hostnames, request identifiers for deduplication,
+        and company counts. It is kept in browser session storage and removed
+        when the tab closes or the browser session ends.
+      </p>
+      <h2>What stays on your device</h2>
+      <p>
+        Your blocking and link-cleanup choices, language, eyes setting, and site
+        exceptions are stored locally. An endpoint exception stores the website
+        hostname and the destination you allowed. Optional history and the eyes indicator
+        are off by default. When enabled, history stores visited site hostnames
+        and daily company counts for the last seven calendar days, including
+        today. Disabling history stops new entries; use “Delete history” in
+        Settings to remove existing history.
+      </p>
+      <p>
+        History is not recorded for incognito tabs. Expired entries are removed
+        when peer processes or displays data. Browser session data and
+        persistent history are separate.
+      </p>
+      <h2>Permissions</h2>
+      <p>
+        Access to HTTP(S) sites and the webRequest API lets peer recognize known
+        tracking requests and place its optional eyes widget on pages.
+        Declarative Net Request blocks matching requests. activeTab allows peer
+        to inspect available blocking results after you open it from the
+        toolbar. Storage keeps settings and local data.
+      </p>
+      <h2>Link cleanup</h2>
+      <p>
+        When Peer back is on, peer removes known tracking parameters from links
+        you follow. It skips signed links and common login and payment paths.
+        URLs are processed in your browser.
+      </p>
+      <h2>Limits</h2>
+      <p>
+        The bundled lists include EasyPrivacy network rules and exceptions, specific
+        endpoints, and known tracking aliases from AdGuard. Filtering uses the
+        lists stored in the extension. Detection is not proof of the data a company received.
+        peer does not reveal advertising profiles, change your IP address,
+        prevent every kind of fingerprinting, or detect all first-party and
+        server-side tracking.
+      </p>
+      <h2>External links</h2>
+      <p>
+        Links to GitHub and service documentation open only when you choose
+        them. Those websites have their own privacy practices. Brand assets are
+        bundled. Chrome and Edge retrieve site icons from the browser. Firefox
+        uses a generic site icon. peer
+        does not send visited site addresses to a third-party favicon service.
+      </p>
+      <h2>Contact</h2>
+      <p>
+        For questions or reports, use
+        <a
+          href="https://github.com/crocs/peer/issues"
+          target="_blank"
+          rel="noreferrer"
+          >the project’s GitHub issues</a
+        >. Avoid including private browsing information.
+      </p>
+      <footer>peer 0.6.0 · MIT application code</footer>
+    </main>
+  </body>
+</html>

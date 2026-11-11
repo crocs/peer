@@ -1,0 +1,21 @@
+EasyPrivacy snapshot and derived network rules
+
+Copyright: The EasyList authors (https://easylist.to/)
+Source: https://easylist.to/easylist/easyprivacy.txt
+License: Creative Commons Attribution-ShareAlike 3.0 Unported
+License text: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+Upstream license statement: https://easylist.to/pages/licence.html
+
+The EasyPrivacy snapshot is unmodified. The generated privacy rules adapt
+supported network filters and exceptions for native Chromium filtering. General
+domain blocks are restricted to third-party subresources and batched by operator.
+The derived network rule set is distributed under CC BY-SA 3.0. It also includes
+tracking aliases from AdGuard, whose MIT notice accompanies the rule set.
+peer's application code is licensed separately under MIT.
+
+Brand assets
+
+Simple Icons artwork is distributed under its CC0 dedication and any applicable
+brand terms. Other bundled images are website favicons, used to identify their
+respective services. Sources are recorded in data/brands/sources.json.
+Brand names and artwork belong to their respective owners.

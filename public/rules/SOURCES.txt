@@ -1,0 +1,11 @@
+EasyPrivacy by the EasyList authors — CC BY-SA 3.0
+https://easylist.to/easylist/easyprivacy.txt
+Updated: 10 Nov 2026 15:28 UTC
+SHA-256: 9aba9b5b6c1cc386b3b3bed9c3d1fa1b587c1f46cc3edaa2ae6ef9cfc03b2d77
+Adapted network filters and exceptions for Chromium subresource requests.
+
+CNAME-cloaked trackers by AdGuard — MIT (see ADGUARD-LICENSE.txt)
+https://github.com/AdguardTeam/cname-trackers/tree/dd5bd59eda209a97efeee1ee7898e119c582a13b/data/trackers
+Selected analytics and advertising providers; validated cross-site aliases grouped for native filtering.
+
+Application source and pinned data: https://github.com/crocs/peer

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "amazon",
+    "domain": "amazon.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Famazon.com&sz=64"
+  },
+  {
+    "id": "yandex",
+    "domain": "yandex.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fyandex.com&sz=64"
+  },
+  {
+    "id": "microsoft",
+    "domain": "microsoft.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fmicrosoft.com&sz=64"
+  },
+  {
+    "id": "adobe",
+    "domain": "adobe.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fadobe.com&sz=64"
+  },
+  {
+    "id": "criteo",
+    "domain": "criteo.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcriteo.com&sz=64"
+  },
+  {
+    "id": "linkedin",
+    "domain": "linkedin.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Flinkedin.com&sz=64"
+  },
+  {
+    "id": "segment",
+    "domain": "segment.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fsegment.com&sz=64"
+  },
+  {
+    "id": "amplitude",
+    "domain": "amplitude.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Famplitude.com&sz=64"
+  },
+  {
+    "id": "fullstory",
+    "domain": "fullstory.com",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Ffullstory.com&sz=64"
+  }
+]

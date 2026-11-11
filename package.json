@@ -1,0 +1,42 @@
+{
+  "name": "peer",
+  "version": "0.6.0",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "type": "module",
+  "description": "Identify tracking companies, block known trackers, and remove tracking tags from links.",
+  "scripts": {
+    "dev": "wxt",
+    "assets": "tsx scripts/assets.ts",
+    "update:filters": "tsx scripts/update-filters.ts",
+    "update:brands": "tsx scripts/update-brands.ts",
+    "build": "npm run assets && wxt build",
+    "zip": "npm run assets && wxt zip && wxt zip -b edge && wxt zip -b firefox",
+    "zip:source": "git archive --format=zip --output=.output/peer-review-source.zip HEAD",
+    "setup:windows": "tsx scripts/package-windows.ts",
+    "build:firefox": "npm run assets && wxt build -b firefox",
+    "build:edge": "npm run assets && wxt build -b edge",
+    "typecheck": "wxt prepare && tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tldts": "^7.4.19"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@wxt-dev/module-react": "^1.2.2",
+    "sharp": "^0.35.5",
+    "simple-icons": "^16.37.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "wxt": "^0.21.5"
+  }
+}

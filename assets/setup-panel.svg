@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="492" height="942" viewBox="0 0 164 314">
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1">
+      <stop stop-color="#f2f2f3"/><stop offset="1" stop-color="#dcdde1"/>
+    </linearGradient>
+  </defs>
+  <rect width="164" height="314" fill="url(#paper)"/>
+  <g fill="none" stroke="#c7c8ce" stroke-width=".7">
+    <circle cx="81" cy="145" r="64"/><circle cx="81" cy="145" r="84"/>
+    <circle cx="81" cy="145" r="106"/><circle cx="81" cy="145" r="132"/>
+  </g>
+  <image id="mark" x="44" y="108" width="74" height="74" href="MARK_URL" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MARK_URL"/>
+  <text x="15" y="293" fill="#303037" font-family="Segoe UI, sans-serif" font-weight="700" font-size="20" letter-spacing="-1">peer</text>
+</svg>
