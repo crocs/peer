@@ -4,7 +4,6 @@ Open peer on a website to see which tracking services it contacted. Expand a com
 
 [![Using peer on Google](assets/peer.gif)](https://github.com/crocs/peer/releases/download/v0.6.0/peer-guide.mp4)
 
-[Watch the walkthrough on google.com (MP4)](https://github.com/crocs/peer/releases/download/v0.6.0/peer-guide.mp4)
 
 ## Install
 
